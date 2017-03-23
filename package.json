@@ -1,0 +1,16 @@
+{
+  "name": "time-radians",
+  "version": "1.0.0",
+  "description": "Convert hours/minutes/seconds to clock hand angles",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/*-test.js"
+  },
+  "keywords": ["time", "clock", "angle"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.6.3",
+    "tape-approximately": "^1.0.0"
+  }
+}
