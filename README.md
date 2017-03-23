@@ -38,6 +38,29 @@ Returns angle for minutes hand, in radians.
 
 Returns angle for seconds hand, in radians.
 
+## Rendering tip
+
+Assuming your clock's center looks like
+
+```js
+var center = {
+  x: 100,
+  y: 200
+};
+```
+
+use this to figure out where to render clock hands
+
+```js
+function endPoint(center, length, radians) {
+  return {
+    x: center.x + (length * Math.cos(radians)),
+    y: center.y - (length * Math.sin(radians))
+  };
+}
+```
+
+
 ## License
 
 MIT
