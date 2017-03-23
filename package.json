@@ -7,7 +7,12 @@
     "test": "tape tests/*-test.js"
   },
   "keywords": ["time", "clock", "angle"],
-  "author": "",
+  "author": "Paul Salaets <psalaets@gmail.com>",
+  "homepage": "https://github.com/psalaets/time-radians",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psalaets/time-radians.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "tape": "^4.6.3",
